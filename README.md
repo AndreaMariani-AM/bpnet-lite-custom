@@ -1,11 +1,11 @@
-# bpnet-lite
+# bpnet-lite-custom
 
 [![PyPI Downloads](https://static.pepy.tech/badge/bpnet-lite)](https://pepy.tech/projects/bpnet-lite)
 
-> **Note**
-> IMPORTANT: bpnet-lite is not meant to replace the full service implementations of BPNet or ChromBPNet. Please see the official repositories for those projects for TensorFlow/Keras implementations of those models along with complete tutorials on how to use them effectively.
+> IMPORTANT: bpnet-lite-custom is a personal implementation of the original [bpnet-lite](https://github.com/jmschrei/bpnet-lite) by Jacob Schreiber, which in turn is a lightweigth implementation in PyTorch of the original [BPNet](https://github.com/kundajelab/bpnet). Where i've adapted code from others it's properly cited at the top of the corresponding file.
 
-bpnet-lite is a lightweight version of BPNet [[paper](https://www.nature.com/articles/s41588-021-00782-6) | [code](https://github.com/kundajelab/basepairmodels)] and ChromBPNet [paper | [code](https://github.com/kundajelab/chrombpnet)], containing PyTorch reference implementations of both models. Additionally, it contains efficient data loaders and common operations one would do with these trained models including calculating attributions, running TF-MoDISco, and performing marginalization experiments. These operations are wrapped in command-line tools for ease-of-use and organized in a pipeline command representing the standard workflow. This package is meant to be used for quickly exploring data sets using BPNet or ChromBPNet and as a springboard for prototyping new ideas that involve modifying the code. 
+bpnet-lite-custom is a lightweight version of BPNet. It build on top of the original [bpnet-lite](https://github.com/jmschrei/bpnet-lite) adding features like a test and validation PyTorch DataLoader, adatped from [Adam He](https://github.com/adamyhe/PersonalBPNet), concurrent model trainings, single task metrics and others.
+
 
 ### Installation
 
