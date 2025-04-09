@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     author='Andrea Mariani',
     author_email='andrea.mariani1@icloud.com',
-    packages=['bpnetlite_custom'],
+    packages=['bpnetlite'],
     scripts=['bpnet', 'chrombpnet'],
     url='https://github.com/AndreaMariani-AM/bpnet-lite-custom',
     license='LICENSE.txt',
