@@ -1,25 +1,16 @@
 from setuptools import setup
 
 setup(
-    name='bpnet-lite',
-    version='0.8.1',
-    author='Jacob Schreiber',
-    author_email='jmschreiber91@gmail.com',
-    packages=['bpnetlite'],
+    name='bpnet-lite-custom',
+    version='0.0.1',
+    author='Andrea Mariani',
+    author_email='andrea.mariani1@icloud.com',
+    packages=['bpnetlite_custom'],
     scripts=['bpnet', 'chrombpnet'],
-    url='https://github.com/jmschrei/bpnet-lite',
+    url='https://github.com/AndreaMariani-AM/bpnet-lite-custom',
     license='LICENSE.txt',
-    description='bpnet-lite is a minimal implementation of BPNet, a neural network aimed at interpreting regulatory activity of the genome.',
+    description='bpnet-lite-custom is a modification of the original bpnet-lite.',
     install_requires=[
-        "numpy >= 1.14.2",
-        "scipy >= 1.0.0",
-        "pandas >= 1.3.3",
-        "torch >= 1.9.0",
-        "h5py >= 3.7.0",
-        "tqdm >= 4.64.1",
-        "seaborn >= 0.11.2",
-        "modisco-lite >= 2.0.0",
-        "tangermeme >= 0.2.3",
-        "bam2bw"
+        "bpnet-lite >= 0.8.1"
     ],
 )
