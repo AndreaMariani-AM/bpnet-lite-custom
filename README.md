@@ -10,6 +10,6 @@
 You can install PBPNet with:
 ```
 git clone git@github.com:AndreaMariani-AM/PBPNet.git
-cd bpnetlite
+cd PBPNet
 pip install -e .
 ```
